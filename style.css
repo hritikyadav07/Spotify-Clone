@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    color: #ebd5d5;
+}
+
+.left{
+    width: 27vw;
+    padding: 5px;
+}
+.right{
+    width: 72vw;
+}
+.home ul li{
+    padding: 10px;
+    display: flex;
+    width: 24px;
+    gap: 18px;
+    list-style: none;
+}
+.logo{
+    width: 24px;
+    padding: 10px;
+}
+.library{
+    /* margin :5px 0px ; */
+    padding: 50px 10px;
+    min-height: 59vh;
+    position:relative;
+}
+.head{
+    gap: 18px;
+}
+.head img{
+    width: 28px;
+}
+.footer{
+    display: flex;
+    font-size: 13px;
+    gap: 13px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+}
+.footer a{
+    color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0c0c;
+}
+.header >*{
+    padding: 20px;
+}
+.right{
+    margin: 16px 0px ;
+    
+    position: relative;
+}
+
+.spotifyPlaylist{
+    padding: 16px;
+}
+.cardContainer{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    max-height: 67vh;
+    overflow-y: scroll;
+}
+
+.card{
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+.card >*{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card > p{
+    font-size: 14px;
+}
+.play {
+    position: absolute;
+    top: 168px;
+    right: 14px;
+    width: 50px; /* Adjust size of the circular container */
+    height: 50px;
+    padding-top: 0px;
+    border-radius: 50%; /* Ensure it's a circle */
+    background-color: #1DB954; /* Spotify green background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+  
+.play svg { /* Adjust size of the SVG icon */
+    height: auto;/* Fill color of the SVG icon (white) */
+    fill: #000000;
+    stroke: none; /* No stroke */
+    display: block; /* Ensure SVG is treated as a block element */
+    margin: auto; /* Center the SVG horizontally and vertically */
+  }
+.play:hover{
+    opacity: 2;
+    top: 155px;
+}
+
+.signupBtn{
+    background-color: #0c0c0c;
+    color: #525050;
+    font-weight: bold;
+    padding: 0px 12px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+.signupBtn:hover{
+    font-size: 1.1rem;
+    color: white;
+}
+.loginBtn{
+    background-color: white;
+    border-radius: 20px;
+    width: 79px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+.loginBtn:hover{
+    padding: 10px 12px;
+    font-weight: bold;
+    width: 82px;
+    /* font-size: 1.1rem; */
+}
+
+.playBar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    width: 97.5%;
+    padding: 12px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    gap: 10px;
+}
+.previous{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.play-pause{
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.next{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.songList{
+    height: 350px;
+    overflow: auto;
+}
+.songList ul{
+    padding: 15px 42px;
+}
+.songList ul li{
+    list-style: decimal;
+    display: flex;
+    gap: 34px;
+    cursor: pointer;
+    padding: 12px 0px;
+    border: 1px solid white;
+    margin: 12px 0;
+    padding: 13px;
+    border-radius: 5px;
+
+}

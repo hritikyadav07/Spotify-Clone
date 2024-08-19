@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musify - Web Player: Music for Everyone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <div class="left">
+      <div class="home bg-grey rounded p-1 m-1">
+        <div class="logo">
+          <img class="invert" src="logo.svg" alt="" />
+        </div>
+        <ul>
+          <li><img class="invert" src="home.svg" alt="home" />Home</li>
+          <li><img class="invert" src="search.svg" alt="search" />Search</li>
+        </ul>
+      </div>
+      <div class="library bg-grey rounded m-1">
+        <div class="head flex">
+          <img class="invert" src="library.svg" alt="" />
+          <h3>Your Library</h3>
+        </div>
+        <div class="songList">
+          <ul>
+            
+          </ul>
+        </div>
+        <div class="footer">
+          <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+            <span data-encore-id="type">Legal </span>
+          </a>
+          <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+            <span data-encore-id="type">Safety &amp; Privacy Center</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+            <span data-encore-id="type">Privacy Policy</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+            <span data-encore-id="type">Cookies</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+            <span data-encore-id="type">About Ads</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+            <span data-encore-id="type">Accessibility</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="right bg-grey rounded  ">
+      <div class="header">
+        <div class="nav invert">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+            fill="none">
+            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+            fill="none">
+            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="buttons">
+          <button class="signupBtn">Sign Up</button>
+          <button class="loginBtn">Log In</button>
+        </div>
+      </div>
+      <div class="spotifyPlaylist">
+        <h1>Spotify PlayList</h1>
+        <div class="cardContainer">
+          <div class="card ">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                fill="none">
+                <path
+                  d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="hello.jpg" alt="">
+            <h2>Happy Hits!</h2>
+            <p>Hits to boost your mood and fill you with happiness!</p>
+          </div>
+          <div class="card ">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                fill="none">
+                <path
+                  d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+              </svg>
+            </div>
+
+            <img src="hello.jpg" alt="">
+            <h2>Happy Hits!</h2>
+            <p>Hits to boost your mood and fill you with happiness!</p>
+          </div>
+        </div>
+      </div>
+      <div class="playBar">
+        <div class="songinfo"></div>
+        <button class="previous">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="28" color="#000000" fill="none">
+            <path d="M8.06492 12.6258C8.31931 13.8374 9.67295 14.7077 12.3802 16.4481C15.3247 18.3411 16.797 19.2876 17.9895 18.9229C18.3934 18.7994 18.7654 18.5823 19.0777 18.2876C20 17.4178 20 15.6118 20 12C20 8.38816 20 6.58224 19.0777 5.71235C18.7654 5.41773 18.3934 5.20057 17.9895 5.07707C16.797 4.71243 15.3247 5.6589 12.3802 7.55186C9.67295 9.29233 8.31931 10.1626 8.06492 11.3742C7.97836 11.7865 7.97836 12.2135 8.06492 12.6258Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+            <path d="M4 4L4 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        </button>
+        <buttton class="play-pause">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="43" height="40" color="#000000" fill="none">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+            <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+        </svg>
+        </buttton>
+        <button class="next">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="28" color="#000000" fill="none">
+            <path d="M15.9351 12.6258C15.6807 13.8374 14.327 14.7077 11.6198 16.4481C8.67528 18.3411 7.20303 19.2876 6.01052 18.9229C5.60662 18.7994 5.23463 18.5823 4.92227 18.2876C4 17.4178 4 15.6118 4 12C4 8.38816 4 6.58224 4.92227 5.71235C5.23463 5.41773 5.60662 5.20057 6.01052 5.07707C7.20304 4.71243 8.67528 5.6589 11.6198 7.55186C14.327 9.29233 15.6807 10.1626 15.9351 11.3742C16.0216 11.7865 16.0216 12.2135 15.9351 12.6258Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+            <path d="M20 5V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        </button>
+        <div class="songtime"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
